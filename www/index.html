@@ -1,0 +1,141 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>jQuery Mobile: Theme Download</title>
+<link rel="stylesheet" href="themes/carlosa.min.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.datepicker.min.css" rel="stylesheet" type="text/css">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="jQueryAssets/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.datepicker.min.js" type="text/javascript"></script>
+</head>
+<body>
+
+
+
+<!--Aca empieza la página Inicio-->
+<div data-role="page" id="inicio" data-theme="a">
+  <div data-role="panel" id="myPanel">
+    <h2>Calendario </h2>
+    <input type="text" id="Datepicker1">
+  </div>
+  <div data-role="header" align="center" > <img style="max-width:600px;" src="img/logo.png" width="70%" height="auto" alt=""/>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#inicio" data-transition="slideup"><img src="img/home.png" width="50" height="50" alt=""/><br>
+          Inicio</a></li>
+        <li><a href="#podcast" data-transition="slideup"><img src="img/podcast.png" width="50" height="50" alt=""/><br>
+          Podcast</a></li>
+        <li><a href="#video" data-transition="slideup"><img src="img/video.png" width="50" height="50" alt=""/><br>
+          Video</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  
+  <!--Contenidos de la página Inicio-->
+  <div data-role="content">
+    <h2>Lorem Ipsum is simply dummy text</h2>
+    <p>Of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+  </div>
+  <div data-role="footer" data-position="fixed" align="center">
+    <h4>Pie de pagina</h4>
+    <div data-role="controlgroup" data-type="horizontal"><a href="#" data-role="button" data-icon="back" data-iconpos="right" data-rel="back">Volver</a> <a href="http://m.twitter.com/caural" data-role="button" ><img src="img/icotwitter.png" width="17" height="17" alt="m.twitter.com/caural"/></a> <a data-role="button" data-icon="calendar" data-iconpos="right"  href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Calendario</a></div>
+  </div>
+</div>
+<!--Fin de la página de inicio-->
+
+
+
+<!--Aca empieza la página Podcast-->
+<div data-role="page" id="podcast" data-theme="a">
+  <div data-role="panel" id="myPanel">
+    <h2>Calendario </h2>
+    <input type="text" id="Datepicker1">
+  </div>
+  <div data-role="header" align="center" > <img style="max-width:600px;" src="img/logo.png" width="70%" height="auto" alt=""/>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#inicio" data-transition="pop"><img src="img/home.png" width="50" height="50" alt=""/><br>
+          Inicio</a></li>
+        <li><a href="#podcast" data-transition="slideup"><img src="img/podcast.png" width="50" height="50" alt=""/><br>
+          Podcast</a></li>
+        <li><a href="#video" data-transition="slideup"><img src="img/video.png" width="50" height="50" alt=""/><br>
+          Video</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  
+  <!--Contenidos de la página Podcast-->
+  <div data-role="content">
+    <h2>Podcast</h2>
+    <iframe src="http://co.ivoox.com/es/player_es_channel_73718_1.html" width="100%" style="border: 1px solid #D7D7D7;" height="440" frameborder="0" allowfullscreen="0" scrolling="no" ></iframe>
+  </div>
+  <div data-role="footer" data-position="fixed" align="center">
+    <h4>Pie de pagina</h4>
+    <div data-role="controlgroup" data-type="horizontal"><a href="#" data-role="button" data-icon="back" data-iconpos="right" data-rel="back">Volver</a> <a href="http://m.twitter.com/caural" data-role="button" ><img src="img/icotwitter.png" width="17" height="17" alt="m.twitter.com/caural"/></a> <a data-role="button" data-icon="calendar" data-iconpos="right"  href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Calendario</a></div>
+  </div>
+</div>
+<!--Fin de la página de podcast-->
+
+
+
+
+<!--Aca empieza la página Video-->
+<div data-role="page" id="video" data-theme="a">
+  <div data-role="panel" id="myPanel">
+    <h2>Calendario </h2>
+    <input type="text" id="Datepicker1">
+  </div>
+  <div data-role="header" align="center" > <img style="max-width:600px;" src="img/logo.png" width="70%" height="auto" alt=""/>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#inicio" data-transition="slideup"><img src="img/home.png" width="50" height="50" alt=""/><br>
+          Inicio</a></li>
+        <li><a href="#podcast" data-transition="slideup"><img src="img/podcast.png" width="50" height="50" alt=""/><br>
+          Podcast</a></li>
+        <li><a href="#video" data-transition="slideup"><img src="img/video.png" width="50" height="50" alt=""/><br>
+          Video</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  
+  <!--Contenidos de la página Video-->
+  <div data-role="content">
+    <h2>Video</h2>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/-S3ncC00t2c?list=PLCD8B17FBA241E1AD" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div data-role="footer" data-position="fixed" align="center">
+    <h4>Pie de pagina</h4>
+    <div data-role="controlgroup" data-type="horizontal"><a href="#" data-role="button" data-icon="back" data-iconpos="right" data-rel="back">Volver</a> <a href="http://m.twitter.com/caural" data-role="button" ><img src="img/icotwitter.png" width="17" height="17" alt="m.twitter.com/caural"/></a> <a data-role="button" data-icon="calendar" data-iconpos="right"  href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Calendario</a></div>
+  </div>
+</div>
+<!--Fin de la página de Video-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+$(function() {
+	$( "#Datepicker1" ).datepicker(); 
+});
+</script>
+</body>
+</html>
